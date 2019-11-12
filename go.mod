@@ -1,4 +1,4 @@
-module github.com/maseer/m3u8Grabber/v2
+module github.com/maseer/m3u8Grabber/v5
 
 go 1.12
 

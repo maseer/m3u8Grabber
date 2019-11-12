@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/maseer/m3u8Grabber/v2/m3u8"
+	"github.com/maseer/m3u8Grabber/v5/m3u8"
 )
 
 var (
