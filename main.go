@@ -6,8 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/mattetti/m3u8Grabber/m3u8"
-	"github.com/mattetti/m3u8Grabber/server"
+	"github.com/maseer/m3u8Grabber/m3u8"
 )
 
 // Flags
@@ -72,8 +71,8 @@ func main() {
 		w.Wait()
 	}
 
-	// server mode
-	if *serverMode {
-		server.Start(*serverPort, *dlRootDir, *httpProxy, *socksProxy)
-	}
+	// // server mode
+	// if *serverMode {
+	// 	server.Start(*serverPort, *dlRootDir, *httpProxy, *socksProxy)
+	// }
 }

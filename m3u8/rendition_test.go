@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mattetti/m3u8Grabber/m3u8"
+	"github.com/maseer/m3u8Grabber/m3u8"
 )
 
 func TestExtractRendition(t *testing.T) {
